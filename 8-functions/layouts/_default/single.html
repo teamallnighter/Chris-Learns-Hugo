@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<main>
+
+	Function Tests:
+	<hr>
+	Is 22 more than 8? <strong>{{ cond (gt 22 8) "YES" "NO" }}</strong>
+	<hr>
+	{{ humanize "some-dashed-string" }}
+	<hr>
+	{{ md5 "some-dashed-string" }}
+	<hr>
+	{{ range (split "apple,grape,orange" ",") }}
+	{{ humanize . }}<br>
+	{{ end }}
+	<hr>
+	{{ with (.GetPage "/hugo-dog") }}
+	This context is for the page: {{ .Title }} by {{ .Params.Photoauthor }}
+	{{ end }}
+	<hr>
+
+	<div class="post">
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+
+		{{ partial "single/header.html" . }}
+
+		{{ .Content }}
+
+		{{ partial "single/footer.html" . }}
+	</div>
+
+	<div class="pagination">
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+{{ end }}

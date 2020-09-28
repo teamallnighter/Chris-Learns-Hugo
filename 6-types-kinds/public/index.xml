@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAMSite</title>
+    <link>http://example.org/</link>
+    <description>Recent content on JAMSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2019 Stackacademy.tv</copyright>
+    <lastBuildDate>Fri, 22 Nov 2019 17:33:57 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Fri, 22 Nov 2019 17:33:57 +0200</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About JAMSite Some infor re this site at the top level..
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue.</description>
+    </item>
+    
+    <item>
+      <title>Photo One</title>
+      <link>http://example.org/photos/photo-one/</link>
+      <pubDate>Thu, 14 Nov 2019 17:20:32 +0200</pubDate>
+      
+      <guid>http://example.org/photos/photo-one/</guid>
+      <description>Photo heading Photo except
+Photo content</description>
+    </item>
+    
+    <item>
+      <title>Second Page</title>
+      <link>http://example.org/second-page/</link>
+      <pubDate>Thu, 14 Nov 2019 17:15:30 +0200</pubDate>
+      
+      <guid>http://example.org/second-page/</guid>
+      <description>Post excerpt
+Main Heading Post content&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Dog</title>
+      <link>http://example.org/photos/hugo-dog/</link>
+      <pubDate>Wed, 06 Nov 2019 17:03:45 +0200</pubDate>
+      
+      <guid>http://example.org/photos/hugo-dog/</guid>
+      <description>HUGO the Dog! Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</description>
+    </item>
+    
+    <item>
+      <title>First Page</title>
+      <link>http://example.org/first-page/</link>
+      <pubDate>Wed, 06 Nov 2019 17:00:08 +0200</pubDate>
+      
+      <guid>http://example.org/first-page/</guid>
+      <description>First JAMSite Page Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</description>
+    </item>
+    
+  </channel>
+</rss>

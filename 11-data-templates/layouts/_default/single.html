@@ -1,0 +1,47 @@
+{{ define "main" }}
+
+<main>
+
+	DATA TESTS:
+	<hr>
+	{{ range .Site.Data.users }}
+	<strong>{{ .name }} {{ .surname }}</strong><br>
+	<small>{{ range .skills }}{{ . }}, {{ end }}</small>
+	<hr>
+	{{ end }}
+
+	{{ range getJSON "https://jsonplaceholder.typicode.com/photos?_limit=5" }}
+	<img style="float:left;" src="{{ .thumbnailUrl }}" alt="{{ .title }}">
+	{{ end }}
+	<hr>
+
+	{{ range getJSON "https://jsonplaceholder.typicode.com/posts?_limit=5" }}
+	<h3>{{ .title | humanize }}</h3>
+	<p>{{ .body }}</p>
+	<br>
+	{{ end }}
+
+	<div class="post">
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+
+		{{ partial "single/header.html" . }}
+
+		{{ .Content }}
+
+		{{ partial "single/footer.html" . }}
+	</div>
+
+	<div class="pagination">
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+{{ end }}
