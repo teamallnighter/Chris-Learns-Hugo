@@ -5,8 +5,11 @@ draft: false
 author: Author Name
 ---
 
-Post Excerpt 
+# {{ replace .Name "-" " " | title }}
 
-# Main Heading
+## {{ .Date }}
 
-Post Content
+
+
+
+

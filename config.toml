@@ -3,5 +3,9 @@ languageCode = "en-us"
 title = "Chris Learns Hugo"
 theme = "tale"
 author = "Chris Connelly"
+copyright = "Copyright 2020 chrisconnellydotdev inc"
+GoogleAnalytics = "trackingcode"
+DisqusShortname = "teamallnighter"
+
 
 
